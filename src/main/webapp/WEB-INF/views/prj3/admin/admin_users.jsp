@@ -133,7 +133,7 @@ th {
 <div id="wrap">
 	<div id="container">
 			<h1 id="headerTitle">SANGHAUI STREET ADMINISTRATOR</h1>
-			<table class="table table-bordered" style="width:1200px;height:500px;position:relative;left:20px;top:50px;">
+			<table class="table table-bordered" style="width:1200px;position:relative;left:20px;top:50px;">
 					<tr>
 					<th style="width:250px;height:50px">아이디</th>			
 					<th style="width:300px;height:50px">이름</th>			

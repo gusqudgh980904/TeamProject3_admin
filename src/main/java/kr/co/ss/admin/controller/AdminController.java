@@ -214,7 +214,6 @@ public class AdminController {
 		pmVO.setProd_price(prod_price);
 		pmVO.setProd_image(prod_img);
 		as.modifyProd(pmVO);
-		
 		return "redirect:admin_main.do";
 	}//AdminProdUpdateProc
 	

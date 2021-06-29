@@ -130,7 +130,7 @@ th {
 <div id="wrap">
 	<div id="container">
 			<h1 id="headerTitle">SANGHAUI STREET ADMINISTRATOR</h1>
-			<table class="table table-hover" style="width:1200px;height:500px;position:relative;left:20px;top:80px;">
+			<table class="table table-hover" style="width:1200px;position:relative;left:20px;top:80px;">
 				<tr>
 					<th style="width:100px;height:50px">게시글번호</th>			
 					<th style="width:700px;height:50px">제목</th>			
@@ -144,7 +144,7 @@ th {
 				</c:if>
 				<c:forEach var="ll" items="${LBList}">
 				<tr>
-					<td><c:out value="${ll.lb_posts_num}"/></td>
+					<td ><c:out value="${ll.lb_posts_num}"/></td>
 					<td><a href="admin_lookbook.do?lb_posts_num=${ll.lb_posts_num}"><c:out value="${ll.lb_title}"/></a></td>
 					<td><c:out value="${ll.member_id}"/></td>
 					<td><c:out value="${ll.lb_write_date}"/></td>

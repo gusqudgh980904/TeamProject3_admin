@@ -146,9 +146,7 @@ td,th{text-align:center;}
 		<h1 id="title" >제목:<c:out value="${LBInfo.lb_title}"/></h1>
 		<h2 style="margin-left:400px">작성자:<c:out value="${LBInfo.member_id}"/></h2>
 			<div id="content">
-			<c:forEach var="li" items="${LBImg}">
-			<img src="http://localhost/ss/common/product_photo/${li}"/>
-			</c:forEach>
+			<img src="http://localhost/ss/common/product_photo/${LBImg}"/>
 			<br/>
 			<c:out value="${LBInfo.lb_contents}"/>
 			</div>

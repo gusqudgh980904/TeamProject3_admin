@@ -173,7 +173,7 @@ function logout(){
 	<div id="container">
 	<h1 id="headerTitle">SANGHAUI STREET ADMINISTRATOR</h1>
 		<h1 id="title" >상품 정보</h1>
-				<form enctype="multipart/form-data"  id="prod_updateFrm" name="prod_updateFrm" method="post" action="admin_prodMod_proc.do">
+				<form enctype="multipart/form-data"  id="prod_updateFrm" name="prod_updateFrm" method="post" action="http://localhost/ss/admin/admin_prodMod_proc.do">
 						<div id="prodImg"><!-- 이미지 넣기 -->
 						<img src="http://localhost/ss/common/product_photo/${prodInfo.prod_image}"/>
 						<input type="file"name="prod_img"id="prod_img"/>
